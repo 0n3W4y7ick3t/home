@@ -34,8 +34,11 @@ links:
   - name: "Blog"
     icon: "fa-solid fa-blog"
     url: "https://blog.395.moe"
-  - name: "Contacts"
-    icon: "fas fa-file-alt"
+  - name: "Github"
+    icon: "fa-brands fa-github"
+    url: "https://github.com/0n3W4y7ick3t"
+  - name: "Contact me"
+    icon: "fa-solid fa-comments"
     url: "#contacts"
 
 services:
