@@ -1,0 +1,95 @@
+# config.yml
+---
+title: "395.moe"
+subtitle: "Goodies of 395"
+logo: "logo.png"
+
+header: true
+footer: '<p>Ciallo~</p>'
+
+theme: walkxcode
+
+connectivityCheck: true
+
+# message:
+  # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
+  # mapping: # allows to map fields from the remote format to the one expected by Homer
+  #   title: 'id' # use value from field 'id' as title
+  #   content: 'value' # value from field 'value' as content
+  # refreshInterval: 10000 # Optional: time interval to refresh message
+  #
+  # Real example using chucknorris.io for showing Chuck Norris facts as messages:
+  # url: https://api.chucknorris.io/jokes/random
+  # mapping:
+  #   title: 'id'
+  #   content: 'value'
+  # refreshInterval: 10000
+  # style: "is-warning"
+  # title: "Optional message!"
+  # icon: "fa fa-exclamation-triangle"
+  # # The content also accepts HTML content, so you can add divs, images or whatever you want to make match your needs.
+  # content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+links:
+  - name: "Blog"
+    icon: "fa-solid fa-blog"
+    url: "https://blog.395.moe"
+  - name: "Contacts"
+    icon: "fas fa-file-alt"
+    url: "#contacts"
+
+services:
+  - name: "Public Services"
+    icon: "fas fa-lock-open"
+    items:
+      - name: "Vikunja"
+        logo: "assets/static/vikunja.jpg"
+        subtitle: "todos app"
+        url: "https://todos.395.moe"
+        target: "_blank"
+
+      - name: "Sshwifty"
+        logo: "assets/static/sshwifty.svg"
+        subtitle: "ssh/telnet client in web"
+        url: "https://ssh.395.moe"
+        target: "_blank"
+
+      - name: "Alist(down)"
+        logo: "assets/static/alist.svg"
+        subtitle: "files share"
+        url: "https://files.395.moe"
+        target: "_blank"
+
+
+  - name: "Protected Services"
+    icon: "fas fa-lock"
+    items:
+      - name: "Controller"
+        logo: "assets/static/arch.svg"
+        subtitle: "btw?"
+        url: "https://sh.395.moe"
+        target: "_blank"
+
+      - name: "Super Productivity"
+        logo: "assets/static/super-productivity.jpg"
+        subtitle: "really?"
+        url: "https://sp.395.moe"
+        target: "_blank"
+
+      - name: "XOA"
+        logo: "assets/static/xoa.jpg"
+        subtitle: "xen orchestra"
+        url: "https://xoa.395.moe"
+        target: "_blank"
+
+      - name: "OpenWRT"
+        logo: "assets/static/router.jpg"
+        subtitle: "router of my homelab"
+        url: "https://router.395.moe"
+        target: "_blank"
+
+      - name: "TrueNAS(down)"
+        logo: "assets/static/truenas.jpg"
+        subtitle: "nas admin page"
+        url: "https://nas.395.moe"
+        target: "_blank"

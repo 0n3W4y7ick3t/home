@@ -1,0 +1,33 @@
+---
+# Additional page configuration
+
+# Additional configurations are loaded using its file name, minus the extension, as an anchor (https://<mydashboad>#<config>).
+# `config.yml` is still used as a base configuration, and all values here will overwrite it, so you don't have to re-defined everything
+
+# This overwrites message config. Setting it to empty to remove message from this page and keep it only in the main one:
+message: ~
+
+links:
+  - name: "Blog"
+    icon: "fa-solid fa-blog"
+    url: "https://blog.395.moe"
+  - name: "Home"
+    icon: "fas fa-home"
+    url: "#"
+
+services:
+  - name: "Places to find me:"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Github"
+        icon: "fa-brands fa-github-alt"
+        url: "https://github.com/0n3W4y7ick3t"
+      - name: "Telegram"
+        icon: "fa-brands fa-telegram"
+        url: "https://t.me/leonowt"
+      - name: "Email"
+        icon: "fa-solid fa-envelope"
+        url: "mailto:me@395.moe"
+      - name: "Twitter"
+        icon: "fa-brands fa-twitter"
+        url: "https://twitter.com/leonaksy"

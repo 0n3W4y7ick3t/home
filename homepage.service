@@ -1,0 +1,16 @@
+# /etc/systemd/system/homepage.service
+
+[Unit]
+Description=homer served on port 8000
+After=network.target
+
+[Service]
+ExecStart=python -m http.server 8000
+Restart=always
+User=username
+WorkingDirectory=/path/to/homer/dist
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
