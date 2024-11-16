@@ -9,7 +9,7 @@ footer: '<p>Ciallo～(∠·ω< )⌒★~</p>'
 
 theme: walkxcode
 
-connectivityCheck: true
+connectivityCheck: false
 
 # message:
   # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
