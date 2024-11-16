@@ -2,14 +2,14 @@
 ---
 title: "395.moe"
 subtitle: "Goodies of 395"
-logo: "https://tg-pfp.395.moe/?username=leonowt"
+logo: "https://tg-pfp.395.moe/?username=the395"
 
 header: true
 footer: '<p>Ciallo～(∠·ω< )⌒★~</p>'
 
 theme: walkxcode
 
-connectivityCheck: true
+connectivityCheck: false
 
 # message:
   # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.

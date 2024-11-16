@@ -24,7 +24,7 @@ services:
     items:
       - name: "Telegram"
         icon: "fa-brands fa-telegram"
-        url: "https://t.me/leonowt"
+        url: "https://t.me/the395"
       - name: "Twitter"
         icon: "fa-brands fa-twitter"
         url: "https://twitter.com/leonaksy"
