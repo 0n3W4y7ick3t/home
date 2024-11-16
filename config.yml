@@ -57,7 +57,7 @@ services:
         url: "https://ssh.395.moe"
         target: "_blank"
 
-      - name: "Alist(down)"
+      - name: "Alist"
         logo: "assets/static/alist.svg"
         subtitle: "files share"
         url: "https://files.395.moe"
