@@ -4,6 +4,6 @@ curl -L -o homer.zip https://github.com/bastienwirtz/homer/releases/latest/downl
 
 unzip -o homer.zip -d dist
 
-ln -s `realpath config.yml` dist/assets/config.yml
-ln -s `realpath contacts.yml` dist/assets/contacts.yml
-ln -s `realpath static` dist/assets/static
+cp config.yml dist/assets/config.yml
+cp contacts.yml dist/assets/contacts.yml
+cp -r static dist/assets
