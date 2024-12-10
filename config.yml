@@ -2,7 +2,7 @@
 ---
 title: "395.moe"
 subtitle: "Goodies of 395"
-logo: "https://tg-pfp.395.moe/?username=leonowt"
+logo: "https://tg-pfp.395.moe/?username=the395"
 
 header: true
 footer: '<p>Ciallo～(∠·ω< )⌒★~</p>'
@@ -71,6 +71,12 @@ services:
         logo: "assets/static/arch.svg"
         subtitle: "btw?"
         url: "https://sh.395.moe"
+        target: "_blank"
+
+      - name: "Trilium"
+        logo: "assets/static/trilium.png"
+        subtitle: "notes"
+        url: "https://notes.395.moe"
         target: "_blank"
 
       - name: "Super Productivity"
