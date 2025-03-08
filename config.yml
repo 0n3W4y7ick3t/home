@@ -96,7 +96,7 @@ services:
         url: "https://router.395.moe"
         target: "_blank"
 
-      - name: "TrueNAS(down)"
+      - name: "TrueNAS"
         logo: "assets/static/truenas.jpg"
         subtitle: "nas admin page"
         url: "https://nas.395.moe"
